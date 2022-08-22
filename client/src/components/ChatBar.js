@@ -12,11 +12,11 @@ const ChatBar = ({ socket }) => {
       <div className='min-h-[60px] max-h-[60px] bg-white p-2.5 flex flex-col justify-center border-gray-300 border-b border-solid '>
         <div className='flex items-baseline space-x-3'>
           <h2 className='text-lg font-medium text-gray-900'>Active</h2>
-          <p className='text-sm font-medium text-gray-500'>
+          <span className='inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800'>
             {users?.length >= 1
               ? users.length + ' user'
               : users.length + ' users'}
-          </p>
+          </span>
         </div>
       </div>
       <div class='flex flex-col px-4 py-2'>
