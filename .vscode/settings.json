@@ -3,8 +3,7 @@
   "files.watcherExclude": {
     ".git": true,
     "dist": true,
-    "node_modules": true,
-    "functions": true
+    "node_modules": true
   },
   "prettier.singleQuote": true,
   "angular.enable-strict-mode-prompt": false,
